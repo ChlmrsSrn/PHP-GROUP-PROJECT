@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@media screen and (max-width: 480px) {
+    form {
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    input[type="number"],
+    select {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .result {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topnav{
+    background-color: rgb(64, 96, 109);
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+#float-left{
+    float: left;
+    max-width: 100px;
+}
+
+
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: rgb(64, 96, 109);
+}
+
+.head-image {
+    background-image: url("head.jpg");
+    height: 800px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    background-color:cadetblue ;
+    border-radius: 5px;
+    padding:20px;
+}
+
+#Calculator{
+    background-color: #14171A;
+    padding-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input[type="number"],
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 30%;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 30%;
+    margin: 10px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #14171A;
+}
+
+.result {
+    font-size: 20px;
+    text-align: center;
+    background-color: #1DA1F2;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    max-width: 400px;
+    margin: 5% auto;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+   
+}
+
+#About{
+    display: block;
+}
+
+.member{
+    margin: 20px auto;
+    width: 45%;
+    display: block;
+    padding: 30px;
+}
+
+.member p{
+    padding-left: 30px;
+}
+
+.left{
+    border: 3px solid black;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+.right{
+    margin-right: 20px;
+    border: 3px solid black;
+    float: right;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+}
